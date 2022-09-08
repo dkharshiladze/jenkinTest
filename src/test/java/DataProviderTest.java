@@ -7,7 +7,7 @@ public class DataProviderTest {
 
         @DataProvider
         public Object[][] dpMethod(){
-            return new Object[][] {{2, 3 , 5}, {5, 7, 3}};
+            return new Object[][] {{2, 3 , 5}, {5, 7, 1}};
         }
 
         @Test(dataProvider = "dpMethod")
