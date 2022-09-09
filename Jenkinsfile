@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('getting maven version ') {
           steps {
-            sh 'mvn --version'
+            bat 'mvn --version'
           }
         }
 
